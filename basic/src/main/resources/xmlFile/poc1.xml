@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java>
+    <void class="java.lang.ProcessBuilder" method="new">
+        <array class="java.lang.String" length="3">
+            <void index="0">
+                <string>/bin/bash</string>
+            </void>
+            <void index="1">
+                <string>-c</string>
+            </void>
+            <void index="2">
+                <string>touch /tmp/success</string>
+            </void>
+        </array>
+        <void method="start"/>
+    </void>
+</java>
